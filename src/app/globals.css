@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  @apply h-screen overflow-hidden;
+}
+
+.desktop-mask-container {
+  mask-image: url("../../public/desktop-mask.svg");
+  mask-size: calc(100%) calc(100%);
+  mask-repeat: no-repeat;
+}
+
+.desktop-mask {
+  mask-image: url("../../public/desktop-mask.svg");
+  mask-size: calc(100% - 4px) calc(100% - 4px);
+  mask-repeat: no-repeat;
+}
+
+.mobile-mask-container {
+  mask-image: url("../../public/mobile-mask.svg");
+  mask-size: calc(100%) calc(100%);
+  mask-repeat: no-repeat;
+}
+
+.mobile-mask {
+  mask-image: url("../../public/mobile-mask.svg");
+  mask-size: calc(100% - 4px) calc(100% - 4px);
+  mask-repeat: no-repeat;
+}
