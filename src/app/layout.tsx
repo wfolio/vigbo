@@ -9,7 +9,7 @@ const inter = Montserrat({ subsets: ["cyrillic"] });
 export const metadata: Metadata = {
   icons: "https://vigbo.com/favicon/vigbo.png",
   description:
-    "wfolio - сайты для фотографов. Создайте красивый сайт за несколько минут.",
+    "Vigbo — первый сервис для фотографов: сайт-портфолио, галереи для передачи фото, интернет-магазин",
 };
 
 export default function RootLayout({
