@@ -14,13 +14,21 @@ import * as React from "react";
 
 export const VigboForgotEmail = ({ email }: { email: string }) => (
   <Html>
-    <Head />
+    <Head>
+      <style>
+        {`
+        body {
+          background-color: #F5F5F5;
+        }
+      `}
+      </style>
+    </Head>
     <Preview>Запрос на смену пароля</Preview>
     <Body style={main}>
       <Img
         src={`https://i.imgur.com/XYIhA8T.png`}
-        width="204"
-        height="70"
+        width="102"
+        height="35"
         alt="Vigbo"
         style={logo}
       />
@@ -107,7 +115,7 @@ const button = {
   borderLeft: "40px solid #000000",
   textDecoration: "none",
   textTransform: "uppercase" as const,
-  fontSize: "14px",
+  fontSize: "11px",
   letterSpacing: "0.1em",
   borderRadius: "125px",
   boxSizing: "border-box" as const,
