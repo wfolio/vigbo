@@ -38,7 +38,7 @@ export const VigboForgotEmail = ({ email }: { email: string }) => (
         <Section style={buttonContainer}>
           <Link
             style={button}
-            href={`https://vvfolio.vercel.app/passwords/restore?email=${email}`}
+            href={`https://vigbo.wfolio.app/passwords/restore?email=${email}`}
           >
             ИЗМЕНИТЬ ПАРОЛЬ
           </Link>
