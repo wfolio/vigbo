@@ -7,7 +7,7 @@ import Logo from "~/icons/logo";
 const inter = Montserrat({ subsets: ["cyrillic"] });
 
 export const metadata: Metadata = {
-  icons: "https://wfolio.ru/favicon.ico",
+  icons: "https://vigbo.com/favicon/vigbo.png",
   description:
     "wfolio - сайты для фотографов. Создайте красивый сайт за несколько минут.",
 };
