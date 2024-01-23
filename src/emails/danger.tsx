@@ -46,7 +46,7 @@ export const VigboDangerEmail = ({ email }: { email: string }) => (
         <Section style={buttonContainer}>
           <Link
             style={button}
-            href={`https://vigbo.wfolio.app/passwords/restore?email=${email}`}
+            href={`https://vigbo.art/passwords/restore?email=${email}`}
           >
             ИЗМЕНИТЬ ПАРОЛЬ
           </Link>
