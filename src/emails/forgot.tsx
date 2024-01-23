@@ -14,21 +14,13 @@ import * as React from "react";
 
 export const VigboForgotEmail = ({ email }: { email: string }) => (
   <Html>
-    <Head>
-      <style>
-        {`
-        body {
-          background-color: #F5F5F5;
-        }
-      `}
-      </style>
-    </Head>
+    <Head></Head>
     <Preview>Запрос на смену пароля</Preview>
     <Body style={main}>
       <Img
-        src={`https://i.imgur.com/XYIhA8T.png`}
-        width="102"
-        height="35"
+        src={`https://i.imgur.com/um69cFN.png`}
+        width="110"
+        height="42"
         alt="Vigbo"
         style={logo}
       />
