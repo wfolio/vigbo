@@ -2,9 +2,9 @@ import { Metadata } from "next";
 import { redirect } from "next/navigation";
 
 export const metadata: Metadata = {
-  icons: "https://wfolio.ru/favicon.ico",
+  icons: "https://vigbo.com/favicon/vigbo.png",
   title:
-    "wfolio - сайты для фотографов. Создайте красивый сайт за несколько минут.",
+    "Vigbo — первый сервис для фотографов: сайт-портфолио, галереи для передачи фото, интернет-магазин",
 };
 
 export default function NotFound() {
